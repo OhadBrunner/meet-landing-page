@@ -1,0 +1,399 @@
+body {
+  background-color: #FAFAFA;
+  text-align: center;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+/* Icon */
+.icon-box {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 8%;
+  height: 40px;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.circle.blue {
+  background-color: #4D96A9;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.circle.purple {
+  background-color: #855FB1;
+  position: absolute;
+  top: 0;
+  left: 12%;
+}
+
+.icon-box h2 {
+  margin: 0;
+  float: left;
+  margin: auto;
+  padding-left: 23%;
+}
+
+/* Title Section */
+.title-container {
+  padding-top: 13%;
+  display: flex;
+  flex-direction: row;
+}
+
+.title-container .right-image {
+  position: absolute;
+  right: -2%;
+}
+
+.title-container .left-image {
+  position: absolute;
+  left: -2%;
+}
+
+.title-box {
+  margin: auto;
+}
+
+.title-box h1 {
+  color: #28283D;
+  font-size: 3rem;
+  padding: 0 26%;
+}
+
+.title-box p {
+  padding: 0 17%;
+  color: #87879D;
+}
+
+.title-box button {
+  margin: 3% 1% 0 1%;
+  border-width: 0;
+  border-radius: 20px;
+  padding: 2% 5%;
+  color: #fff;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.left-button {
+  background-color: #4D96A9;
+}
+
+.left-button span {
+  color: #8ADFDC;
+}
+
+.right-button {
+  background-color: #855FB1;
+}
+
+.shape {
+  margin: 10% auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  border-left: 3px solid #87879D;
+  height: 70px;
+  position: absolute;
+  left: 50%;
+  order: -1;
+}
+
+.clear-circle {
+  background: lightblue;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #87879D;
+  border-width: 3px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #87879D;
+  background-color: #FAFAFA;
+  margin-top: 8.5%;
+}
+
+/* Images Section */
+.images-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 3% auto 5% auto;
+}
+
+.images-container img {
+  width: 13%;
+  height: 13%;
+  padding: 0 1%;
+}
+
+/* Explanation Section  */
+.Explanation-container {}
+
+.explanation-container h2 {
+  color: #4D96A9;
+  font-size: 1.2rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.explanation-container h1 {
+  color: #28283D;
+  font-size: 2.2rem;
+  padding: 0 37%;
+  margin-bottom: 0;
+}
+
+.explanation-container p {
+  color: #87879D;
+  padding: 2% 34%;
+}
+
+.shape-2 {
+  margin: 2% auto -2% auto;
+}
+
+/* Footer-Section */
+.footer-container {
+  background-color: #4D96A9;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  z-index: -1;
+}
+
+.footer-container img {
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+}
+
+.footer-features {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  color: #fff;
+}
+
+.footer-features h1 {
+  font-size: 2.4rem;
+  text-align: left;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  padding-right: 60%;
+}
+
+.footer-features p {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 10% 0 11%;
+}
+
+.footer-features button {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  background-color: #855FB1;
+  border-width: 0;
+  border-radius: 20px;
+  color: #fff;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 1% 3%;
+}
+
+.footer-features span {
+  color: #FBC7F7;
+}
+
+@media only screen and (max-width: 960px) {
+
+  /* Icon */
+  .circle {
+    width: 15px;
+    height: 15px;
+  }
+
+  .circle.blue {
+    background-color: #4D96A9;
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+  }
+
+  .circle.purple {
+    background-color: #855FB1;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+  }
+
+  .icon-box h2 {
+    margin: 0;
+    float: left;
+    margin: auto;
+    padding-left: 60%;
+  }
+
+  /* Title Section */
+  .title-container img {
+    width: 50%;
+    margin-bottom: 10%;
+  }
+
+  .title-box {
+    margin: 40% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title-box h1 {
+    padding: 0 15%;
+  }
+
+  .title-box button {
+    margin: 3% 30% 0 30%;
+    padding: 4% 5%;
+  }
+
+  .left-button {
+    background-color: #4D96A9
+  }
+
+  .left-button span {
+    color: #8ADFDC;
+  }
+
+  .right-button {
+    background-color: #855FB1;
+  }
+
+  .shape {
+    margin: 0 auto 10% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .line {
+    border-left: 3px solid #87879D;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    order: -1;
+  }
+
+  .clear-circle {
+    background: lightblue;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #87879D;
+    border-width: 3px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #87879D;
+    background-color: #FAFAFA;
+    margin-top: 25%;
+  }
+
+  /* Images Section */
+  .images-container {
+    width: 320px;
+    height: 320px;
+    display: inline-block;
+  }
+
+  .images-container img {
+    width: 150px;
+    height: 150px;
+  }
+
+  /* Explanation Section  */
+  .explanation-container h1 {
+    padding: 0 15%;
+  }
+
+  .explanation-container p {
+    padding: 2% 17%;
+  }
+
+  .shape-2 {
+    margin: 2% auto -2% auto;
+  }
+
+  /* Footer-Section */
+  .footer-container {
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    z-index: -1;
+    background-image: url("/Users/ohadbrunner/Desktop/Web Challenges/meet-landing-page/starter-code/assets/mobile/image-footer.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .footer-container img {
+    opacity: 0;
+  }
+
+  .footer-features {
+    width: 90%;
+    height: 75%;
+    color: #fff;
+  }
+
+  .footer-features h1 {
+    width: 100%;
+    text-align: center;
+    top: 15%;
+  }
+
+  .footer-features p {
+    top: 55%;
+    text-align: center;
+    margin: 0;
+    width: 260px;
+  }
+
+  .footer-features button {
+    width: 30%;
+    height: 10%;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
